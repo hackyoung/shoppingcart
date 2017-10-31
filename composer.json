@@ -1,0 +1,19 @@
+{
+    "name" : "ylara/shoppingcart",
+    "description" : "laravel的多人共享购物车",
+    "license" : "MIT",
+    "keywords" : ["laravel", "shoppingcart"],
+    "require" : {
+        "php" : ">=7.0.0",
+        "laravel/framework": "5.5.*"
+    },
+    "require-dev" : {
+        "phpunit/phpunit" : "~6.0"
+    },
+    "autoload" : {
+        "psr-4": {
+            "Ylara\\" : "src/",
+            "YlaraTest\\" : "test/"
+        }
+    }
+}
